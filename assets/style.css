@@ -1,0 +1,44 @@
+html, body, [data-testid="stAppViewContainer"] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FAFAFA;
+}
+
+h1, h2, h3 {
+    color: #1E1E1E;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+div.stButton > button {
+    background-color: #4F8BF9;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+
+div.stButton > button:hover {
+    background-color: #3572E0;
+    color: white;
+    border: none;
+}
+
+section[data-testid="stFileUploadDropzone"] {
+    border: 2px dashed #4F8BF9;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+header {
+    visibility: hidden !important;
+}
+
+.stAppDeployButton, .stDeployButton {
+    display: none !important;
+}
+
+div.block-container {
+    padding-top: 2rem;
+}
