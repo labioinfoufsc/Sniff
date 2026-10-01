@@ -12,7 +12,7 @@ Utilitário de código aberto desenvolvido para ajudar pesquisadores brasileiros
 
 1. **Clone o repositório:**
 ```bash
-git clone [https://github.com/labioinfoufsc/Sniff.git](https://github.com/labioinfoufsc/Sniff.git)
+git clone https://github.com/labioinfoufsc/Sniff.git
 cd Sniff
 ```
 
